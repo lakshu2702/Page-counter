@@ -2,6 +2,8 @@
 
 A simple web application for tracking the number of pages read. Users can increment the page count and save their progress, keeping a record of previous entries and a total count of pages read.
 
+[Live Demo](https://pagetrackr.netlify.app/)
+
 ![Reading Tracker Screenshot](screenshot.png)
 
 ## Features
