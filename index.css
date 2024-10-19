@@ -1,0 +1,77 @@
+body {
+    overflow: hidden;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 350;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #4b0082;
+    margin: 0;
+    max-width: 100%;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 500;
+    color: #8b0000;
+    margin-bottom: 30px;
+    max-width: 100%;
+    letter-spacing: 1.2px;
+}
+
+button {
+    background-color: #4b0082;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 50px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    max-width: 100%;
+}
+
+button:hover {
+    background-color: #8b0000;
+    transform: translateY(-5px);
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+#increment-btn {
+    background-color: #ff1493;
+}
+
+#increment-btn:hover {
+    background-color: #ff69b4;
+}
+
+#save-btn {
+    background-color: #ff6347;
+}
+
+#save-btn:hover {
+    background-color: #ff7f50;
+}
+
